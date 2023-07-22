@@ -1,0 +1,73 @@
+{
+    "miniprogramRoot": "miniprogram/",
+    "cloudfunctionRoot": "cloudfunctions/",
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "enhance": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "appid": "wxa155ac94f8fc996e",
+    "projectname": "cashbook",
+    "libVersion": "2.8.1",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "db guide",
+                    "pathName": "pages/databaseGuide/databaseGuide",
+                    "query": ""
+                },
+                {
+                    "name": "pages/type/type",
+                    "pathName": "pages/type/type",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/accountDetail/accountDetail",
+                    "pathName": "pages/accountDetail/accountDetail",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/writeOne/writeOne",
+                    "pathName": "pages/writeOne/writeOne",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/accountBook/accountBook",
+                    "pathName": "pages/accountBook/accountBook",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/createBook/createBook",
+                    "pathName": "pages/createBook/createBook",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "compileType": "miniprogram",
+    "srcMiniprogramRoot": "miniprogram/",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}

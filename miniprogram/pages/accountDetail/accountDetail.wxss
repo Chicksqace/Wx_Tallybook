@@ -1,0 +1,60 @@
+.content {
+  background-color: #fff;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #666;
+  opacity: 0.2;
+}
+.balance {
+  padding: 10px;
+  color: #ffd700;
+  font-weight: bold;
+  text-align: center;
+}
+.hr {
+  width: 100%;
+  height: 10px;
+  background-color: #f9f8f6;
+}
+.title {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.item {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+}
+.date{
+  width: 40%;
+}
+.trade_in{
+  width: 30%;
+  color: #00BFFF;
+}
+.trade_out{
+  width: 30%;
+  color: #ffd700;
+}
+.bg{
+    background-color: #ffffff;
+    height: 40px;
+    border: 1px solid #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.writeOne{
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffd700;
+
+}
+
+

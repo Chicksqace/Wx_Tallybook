@@ -1,0 +1,26 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="content">
+    <view class="line"></view>
+    <view class="item">
+      <view class="title">账本类型</view>
+      <view>
+        <radio-group class="radin-group" name="id">
+          <block wx:for="{{types}}" wx:key="item">
+            <radio value="{{item.id}}"> {{item.typeName}}</radio>
+          </block>
+        </radio-group>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="item">
+      <view class="title">账本名称</view>
+      <view>
+        <input type="text" placeholder="请输入账本名称" placeholder-class="holder" name="name" />
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="btn">
+      <button form-type="submit">创 建</button>
+    </view>
+  </view>
+</form>

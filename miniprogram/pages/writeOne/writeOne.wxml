@@ -1,0 +1,43 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="content">
+    <view class="line"></view>
+    <view class="item">
+      <view>交易类型</view>
+      <view>
+        <radio-group class="radin-group" bindchange="radioChange" name="type">
+          <radio value="0" checked="true">收入</radio>
+          <radio value="1">支出</radio>
+        </radio-group>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="item">
+      <view>交易日期</view>
+      <view>
+        <picker mode="multiSelector" value="{{dateTime}}" bindchange="changeDateTime" bindcolumnchange="changeDateTimeColumn" range="{{dateTimeArray}}" name="tradeDate">
+    <view class="tui-picker-detail">
+      {{dateTimeArray[0][dateTime[0]]}}-{{dateTimeArray[1][dateTime[1]]}}-{{dateTimeArray[2][dateTime[2]]}} {{dateTimeArray[3][dateTime[3]]}}:{{dateTimeArray[4][dateTime[4]]}}
+    </view>
+  </picker>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="item">
+      <view>交易金额</view>
+      <view>
+        <input type="text" placeholder="0.00" placeholder-class="holder" name="balance" />
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="item">
+      <view>备注</view>
+      <view>
+        <input type="text" placeholder="选填" placeholder-class="holder" name="remark" />
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="btn">
+      <button form-type="submit">记一笔</button>
+    </view>
+  </view>
+</form>
